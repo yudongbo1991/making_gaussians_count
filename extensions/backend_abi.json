@@ -1,0 +1,13 @@
+{
+  "renderer_python_sha256": "f327e2160c81a67051fa7f2c52050d93589507a461072bd0fb8d58bf89debfb7",
+  "saved_tensors": 10,
+  "channels": 3,
+  "tile_size": [
+    16,
+    16
+  ],
+  "alpha_cutoff": "1/255",
+  "alpha_cap": 0.99,
+  "anchor_workspace": 64,
+  "anchor_workspace_overflow": "exact additional ray passes; never truncate group energy"
+}

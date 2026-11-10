@@ -1,0 +1,29 @@
+{
+  "dataset": "deep_blending",
+  "feature_dim": 32,
+  "slots_per_anchor": 10,
+  "voxel_size": 0.004,
+  "seed": 0,
+  "teacher_iterations": 15000,
+  "student_iterations": 30000,
+  "sfm_capacity_multiplier": 3,
+  "hprg_iteration": 15000,
+  "ispg_iterations": [
+    15000,
+    25000,
+    29000
+  ],
+  "geometry_weight": 1.0,
+  "scenes": [
+    {
+      "name": "drjohnson",
+      "images": "images",
+      "resolution": -1
+    },
+    {
+      "name": "playroom",
+      "images": "images",
+      "resolution": -1
+    }
+  ]
+}

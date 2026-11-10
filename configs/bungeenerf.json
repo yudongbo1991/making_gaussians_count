@@ -1,0 +1,59 @@
+{
+  "dataset": "bungeenerf",
+  "feature_dim": 32,
+  "slots_per_anchor": 10,
+  "voxel_size": 0.0005,
+  "seed": 0,
+  "teacher_iterations": 15000,
+  "student_iterations": 30000,
+  "sfm_capacity_multiplier": 3,
+  "hprg_iteration": 15000,
+  "ispg_iterations": [
+    15000,
+    25000,
+    29000
+  ],
+  "geometry_weight": 1.0,
+  "scenes": [
+    {
+      "name": "amsterdam",
+      "images": "images",
+      "resolution": -1
+    },
+    {
+      "name": "barcelona",
+      "images": "images",
+      "resolution": -1
+    },
+    {
+      "name": "bilbao",
+      "images": "images",
+      "resolution": -1
+    },
+    {
+      "name": "chicago",
+      "images": "images",
+      "resolution": -1
+    },
+    {
+      "name": "hollywood",
+      "images": "images",
+      "resolution": -1
+    },
+    {
+      "name": "pompidou",
+      "images": "images",
+      "resolution": -1
+    },
+    {
+      "name": "quebec",
+      "images": "images",
+      "resolution": -1
+    },
+    {
+      "name": "rome",
+      "images": "images",
+      "resolution": -1
+    }
+  ]
+}

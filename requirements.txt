@@ -1,0 +1,14 @@
+# Install a CUDA-enabled PyTorch2.4.0 / torchvision0.19.0 environment first.
+# Build all bundled CUDA extensions against that same PyTorch environment.
+numpy==1.23.5
+scipy==1.15.2
+Pillow
+plyfile
+tqdm
+einops
+colorama
+lpips==0.1.4
+ninja
+packaging
+# Match torch-scatter to the PyTorch/CUDA build; see README.md.
+torch-scatter

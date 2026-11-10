@@ -1,0 +1,64 @@
+{
+  "dataset": "mipnerf360",
+  "feature_dim": 32,
+  "slots_per_anchor": 10,
+  "voxel_size": 0.002,
+  "seed": 0,
+  "teacher_iterations": 15000,
+  "student_iterations": 30000,
+  "sfm_capacity_multiplier": 3,
+  "hprg_iteration": 15000,
+  "ispg_iterations": [
+    15000,
+    25000,
+    29000
+  ],
+  "geometry_weight": 1.0,
+  "scenes": [
+    {
+      "name": "bicycle",
+      "images": "images_4",
+      "resolution": 1
+    },
+    {
+      "name": "bonsai",
+      "images": "images_2",
+      "resolution": 1
+    },
+    {
+      "name": "counter",
+      "images": "images_2",
+      "resolution": 1
+    },
+    {
+      "name": "flowers",
+      "images": "images_4",
+      "resolution": 1
+    },
+    {
+      "name": "garden",
+      "images": "images_4",
+      "resolution": 1
+    },
+    {
+      "name": "kitchen",
+      "images": "images_2",
+      "resolution": 1
+    },
+    {
+      "name": "room",
+      "images": "images_2",
+      "resolution": 1
+    },
+    {
+      "name": "stump",
+      "images": "images_4",
+      "resolution": 1
+    },
+    {
+      "name": "treehill",
+      "images": "images_4",
+      "resolution": 1
+    }
+  ]
+}
